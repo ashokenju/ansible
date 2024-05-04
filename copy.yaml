@@ -1,5 +1,5 @@
 -name: Ansible copy file
- host: mylocal
+ hosts: mylocal
  tasks: 
    -name: "copy a file from local machine to remote machine"
     copy: 
