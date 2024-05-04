@@ -3,5 +3,5 @@
   tasks: 
    - name: "copy a file from local machine to remote machine"
      copy: 
-     src: /home/master/test/*
-     dest: /home/node/.
+      src: /home/master/test/*
+      dest: /home/node/.
