@@ -5,7 +5,7 @@
      Trainer: "shiva"
      duration: "3 Months"
 
-   tasks:
+  tasks:
     -name: print information
      ansible.builtin.debug:
          msg: "Hi we are leasring {{course}}  with {{Trainer}}  duration {{duration}}"
