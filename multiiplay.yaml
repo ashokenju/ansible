@@ -10,5 +10,4 @@
   tasks: 
   - name: PLAY-2 TASK-1
     ansible.builtin.degug:
-       msg: "this is from PLAY2"   
-      
+       msg: "this is from PLAY2" 
