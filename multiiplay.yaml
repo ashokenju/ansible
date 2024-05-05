@@ -8,7 +8,7 @@
   - name: PLAY-2
     hosts: localhost
     tasks: 
-    - name: PLAY-2 TASK-1
-      ansible.builtin.degug:
+     - name: PLAY-2 TASK-1
+       ansible.builtin.degug:
        msg: "this is from PLAY2"   
       
