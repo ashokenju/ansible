@@ -1,6 +1,6 @@
 - name: ping the servers
 
-  hosts: app
+  hosts: mylocal
 
   tasks: #list of modules/tasks
 
