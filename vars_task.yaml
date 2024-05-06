@@ -5,7 +5,7 @@
    trainer: "shiva"
    duration: "15hours"
 
-   tasks: 
+  tasks: 
     - name: prints override information
       vars: #task level variables
        course: "devops"
