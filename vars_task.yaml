@@ -6,7 +6,7 @@
    duration: "15hours"
 
    tasks: 
-    - name: print override information
+    - name: prints override information
       vars: #task level variables
        course: "devops"
       ansible.builtin.debug:
