@@ -3,11 +3,11 @@
   vars: #variable declaration
    course: "Teraform"
    trainer: "shiva"
-   duration: "3 months"
+   duration: "15hrs"
 
-   tasks:
+  tasks:
    - name: print information
      ansible.builtin.debug:
-      msg: "hi this is Ashok i am learing {{course}},with trainer {{trainer}} duration {{duration}}"
+      msg: "hi wer are  learing {{course}},with trainer {{trainer}} duration {{duration}}"
 
      
