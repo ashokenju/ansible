@@ -3,5 +3,5 @@
   tasks: 
    - name: "copy a file from local machine to remote machine"
      copy: 
-      src: /home/master/test/file*.txt
+      src: /home/ashok/ansible_bkp/ping.yaml
       dest: /home/node/.
