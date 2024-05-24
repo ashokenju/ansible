@@ -5,7 +5,7 @@
    trainer: "shiva kumar reddy"
    duration: "three months"
 
-   tasks: 
+  tasks: 
      - name: print infromation
-       ansible.buitling.debug:
+       ansible.buitlin.debug:
         msg: "Hi we are learning {{course}}  from {{trainer}}  from  {{duration}}"  
