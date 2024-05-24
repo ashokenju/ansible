@@ -9,5 +9,5 @@
   hosts: app
   tasks:
    - name: PLAY-2 TASK-1
-     ansible.builting.debug:
+     ansible.builtin.debug:
       msg: "this is from play2"
