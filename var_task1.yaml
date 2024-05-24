@@ -8,9 +8,9 @@
   tasks: 
    - name : prints override information
      vars: task level variables
-      course: "Devops"
+       course: "Devops"
      ansible.builtin.debug:
-        msg: "Hi i am learning course {{course}}",wtih trainter {{trainer}}  with duration {{duration}}
+         msg: "Hi i am learning course {{course}}",wtih trainter {{trainer}}  with duration {{duration}}
 
    - name : print information
 
