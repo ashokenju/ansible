@@ -1,6 +1,6 @@
-- name : ping the servers
+- name: ping the servers
   
-  hosts : app
+  hosts: app
   
   tasks: #list of module or tasks
    
