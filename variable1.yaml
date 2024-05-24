@@ -6,6 +6,6 @@
    duration: "three months"
 
   tasks: 
-   - name: print infromation
-     ansible.buitlin.debug:
+  - name: print infromation
+    ansible.buitlin.debug:
         msg: "Hi we are learning {{course}}  from  trainer {{trainer}}  with {{duration}}"  
