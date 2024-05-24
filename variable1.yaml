@@ -1,5 +1,5 @@
 - name: variables
-  hosts: app
+  hosts: localhost
   vars: #variable declaration
    Course: "Teraform"
    Trainer: "shiva"
