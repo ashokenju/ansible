@@ -1,0 +1,11 @@
+- name: variables
+  hosts: app
+  vars: # variable declaration
+   course: "terraform"
+   trainer: "shiva kumar reddy"
+   duration: "three months"
+
+   tasks: 
+     - name: print infromation
+       ansible.buitling.debug:
+        msg: ""Hi we are learning {{course}}  from {{trainer}}  from  {{duration}}  
