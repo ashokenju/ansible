@@ -1,0 +1,20 @@
+- name: variables
+  hosts: loacalhost
+  vars: #variable declaration
+   course: "Terraform"
+   trainer: "shiva"
+   duration: "3 months"
+
+  tasks: 
+   - name : prints override information
+     vars: task level variables
+      course: "Devops"
+     ansible.builtin.debug:
+        msg: "Hi i am learning course {{course}}",wtih trainter {{trainer}}  with duration {{duration}}
+
+   - name : print information
+
+     ansible.builtin.debug:  
+       msg:  "Hi i am learning course {{course}}",wtih trainter {{trainer}}  with duration  {{duration}}   
+
+  
