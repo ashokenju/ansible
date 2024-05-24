@@ -1,11 +1,11 @@
 - name: variables
   hosts: app
-  vars: # variable declaration
-   course: "terraform"
-   trainer: "shiva kumar reddy"
-   duration: "three months"
+  vars: #variable declaration
+   Course: "Teraform"
+   Trainer: "shiva"
+   Duration: "15hrs"
 
-  tasks: 
-  - name: print infromation
-    ansible.buitlin.debug:
-        msg: "Hi we are learning {{course}}  from  trainer {{trainer}}  with {{duration}}"  
+  tasks:
+   - name: print information
+     ansible.builtin.debug:
+       msg: "hi wer are  learing {{Course}},with trainer {{Trainer}} duration {{Duration}}" 
