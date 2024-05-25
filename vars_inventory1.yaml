@@ -1,3 +1,0 @@
-- name: vars inventory
-  hosts: localhost
-  vars_inv
