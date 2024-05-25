@@ -8,7 +8,7 @@
     - name: wishes
       prompt: please enter wishes
       private: no
- tasks: 
+  tasks: 
    - name: check preferences
      vars: 
        wishes: ""God morning from TASK variable"
