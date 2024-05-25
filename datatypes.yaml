@@ -6,7 +6,7 @@
      - linux
      - shell
      - ansible
-   experience: map or dictionary
+   experience: # map or dictionary
      Devops: 3
      aws: 2
      docker: 1
