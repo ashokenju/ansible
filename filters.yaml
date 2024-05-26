@@ -5,7 +5,7 @@
     ansible.builtin.debug:
      msg: "Hello {{course | default ('ansible') }}"
   
-  - name: upper case
+- name: upper case
     hosts: localhost
     vars:
      greeting: "hello good morning"
@@ -14,7 +14,7 @@
       ansible.builtin.debug:
        msg: "{{greetomg | upper}}"
 
-  - name: convert to lowecase
+- name: convert to lowecase
     hosts: localhost
     vars:
      greeting: "HELLO GOOD MORNING"
@@ -23,7 +23,7 @@
       ansible.builtin.debug:
        msg: "{{greeting  | lower}}"
 
-  - name:  remove duplicate
+- name:  remove duplicate
     hosts: localhost
     vars:
       numbers: [1,2,3,3,4,5,3,1]
