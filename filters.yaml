@@ -1,0 +1,32 @@
+- name: default values
+  hosts: localhost
+  tasks:
+  - name: print default value
+    ansible.builtin.debug:
+     msg: "hellow {{course| default ('ansible')}}"
+ - name: upper case
+   hosts: localhost
+   vars:
+    greeting: "hello good morning"
+  tasks:
+  - name: convert to upper case
+    ansible.builtin.debug:
+      msg: "{{greetomg | upper}}"
+
+  - name: convert to lowecase
+    hosts: localhost
+    vars:
+     greeting: "HELLO GOOD MORNING"
+    tasks:
+    - name: convert in to lowercase 
+      ansible.builtin.debug:
+       msg: "{{greeting  | lower}}"
+
+  - name:  remove duplicate
+    hosts: localhost
+    vars:
+      numbers: [1,2,3,3,4,5,3,1]
+    tasks:
+    - name: remove duplicates  
+      ansible.builtin.debug:
+       msg: "{{numbers | unique}}"
