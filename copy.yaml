@@ -4,7 +4,7 @@
 
   tasks: 
   - name: copy the file
-    ansible.builtin.copy
+    ansible.builtin.copy:
 
      src: /home/ashok/ansible/nginx.yaml
      dest: /home/node/tmp
