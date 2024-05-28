@@ -6,6 +6,6 @@
   - name: copy the file
     ansible.builtin.copy:
 
-     src: /home/node/file1.txt
+     src: /home/node/file2.txt
      dest: /home/node/tmp/.
      remote_src: yes
