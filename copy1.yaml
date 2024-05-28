@@ -8,3 +8,4 @@
 
      src: /home/node/file1.txt
      dest: /home/node/tmp/.
+     remote_src: yes
