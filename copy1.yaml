@@ -1,3 +1,10 @@
-- name: to copy a file 
-  hosts: localhost
-  
+- name: copy file from master to node
+  hosts: remote
+  become: yes
+
+  tasks: 
+  - name: copy the file
+    ansible.builtin.copy:
+
+     src: /home/node/test
+     dest: /home/node/tmp/.
