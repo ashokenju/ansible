@@ -1,5 +1,5 @@
 - name: copy file from master to node
-  hosts: localhost
+  hosts: remote
   become: yes
 
   tasks: 
