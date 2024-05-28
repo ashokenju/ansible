@@ -1,0 +1,3 @@
+- name: to copy a file 
+  hosts: localhost
+  

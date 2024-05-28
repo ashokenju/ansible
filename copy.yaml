@@ -1,7 +1,10 @@
-- name: Ansible copy 
-  hosts: app
+- name: copy file from master to node
+  hosts: localhost
+  become: yes
+
   tasks: 
-   - name: "copy a file from local machine to remote machine"
-     copy: 
-      src: /home/ashok/ansible_bkp/ping.yaml
-      dest: /home/node/.
+  - name: copy the file
+    ansible.builtin.copy
+
+     src: /home/ashok/ansible/nginx.yaml
+     dest: /home/node/tmp
