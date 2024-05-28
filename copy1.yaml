@@ -6,5 +6,5 @@
   - name: copy the file
     ansible.builtin.copy:
 
-     src: /home/node/test
+     src: /home/node/file1.txt
      dest: /home/node/tmp/.
